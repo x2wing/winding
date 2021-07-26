@@ -2,10 +2,12 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from time import sleep
 
-urls = ("http://csdb.ufanet.ru/content/blogcategory/1/67/",
+urls = ("http://csdb.ufanet.ru/content/view/7697/348/",
+        "http://csdb.ufanet.ru/",
+        "http://csdb.ufanet.ru/content/view/7697/348/",
         "http://csdb.ufanet.ru/",
         "http://csdb.ufanet.ru/content/blogcategory/1/66/",
-        "http://csdb.ufanet.ru/",)
+        "http://csdb.ufanet.ru/content/view/7690/1/")
 
 
 driver = webdriver.Firefox()
